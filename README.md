@@ -2,7 +2,7 @@
 
 **Smart card recommendations, credit-building goals, and community — built for first-year students figuring out money for the first time.**
 
-Wallit helps students pick the right card at the moment they spend, ties that habit to a real credit-score roadmap, and turns saved money into an early start on investing — all wrapped in a mobile app built with Expo/React Native.
+HERcapital helps students pick the right card at the moment they spend, ties that habit to a real credit-score roadmap, and turns saved money into an early start on investing — all wrapped in a mobile app built with Expo/React Native.
 
 ---
 
@@ -25,5 +25,3 @@ First-year students — especially first-gen earners and digital natives — are
 There are two ways into the same quick survey:
 - **Simulate tap-to-pay** — models the instant, frictionless moment tap-to-pay is designed for, which is exactly when it's easiest to overspend without noticing
 - **From the Cards tab** — browse and check manually before you pay
-
-A couple of quick questions (category → specifics) return a clear recommendation: which card to use and why, including when a card's rewards are outweighed by its interest rate. If a category shows a pattern of overspending, the next survey gets a little more pointed — a nudge, not a scolding.
