@@ -1,27 +1,116 @@
 # HERcapital
 
-**Smart card recommendations, credit-building goals, and community — built for first-year students figuring out money for the first time.**
+HERcapital is a full-stack mobile financial wellness application designed to make personal finance more approachable and accessible for young women.
 
-HERcapital helps students pick the right card at the moment they spend, ties that habit to a real credit-score roadmap, and turns saved money into an early start on investing — all wrapped in a mobile app built with Expo/React Native.
+Built during **FidHacks 2026**, Fidelity's 48-hour hackathon, HERcapital combines personalized spending insights, financial education, community discussion, and AI-powered guidance within one mobile application.
 
----
+**3rd Place — FidHacks 2026**
 
-## The problem
+## About the Project
 
-First-year students — especially first-gen earners and digital natives — are managing money, career decisions, and independence for the first time, often with no clear guidance. Small decisions now (which card to use, whether to carry a balance, whether $50/month "isn't a big deal") compound into either a strong credit foundation or a rough one by graduation.
+Financial education can often feel overwhelming, fragmented, or inaccessible, especially for people who are just beginning to manage their own finances.
 
-## What HERcapital does
+HERcapital was created to provide users with a centralized platform where they can better understand their spending habits, learn fundamental financial concepts, reflect before making purchases, and connect with a community interested in improving their financial knowledge.
 
-| Tab | What it's for |
-|---|---|
-| **Home** | Category-by-category spending summary, a credit score goal tracker, and quick access to the spend survey |
-| **Cards** | An Apple Wallet–style card stack — tap to spread your cards apart, tap again to flip one over and see its balance, due date, and weekly activity |
-| **Invest** | A Roth IRA explainer, a contribution tracker against the annual limit, and a projection showing how trimming overspending in one category compounds into real long-term growth |
-| **Goals** | A roadmap of credit-building steps tied to career/independence milestones (first apartment, internship applications), plus warnings when a card's perks are outweighed by its interest rate |
-| **Community** | A feed for financial wins, mistakes, and tips, plus joinable groups for scholarships, side hustles, and internship leads |
+## Features
 
-### The core interaction: the spend survey
+### Pre-Purchase Spending Reflection
 
-There are two ways into the same quick survey:
-- **Simulate tap-to-pay** — models the instant, frictionless moment tap-to-pay is designed for, which is exactly when it's easiest to overspend without noticing
-- **From the Cards tab** — browse and check manually before you pay
+Before making a purchase, users can complete a short reflection survey designed to encourage more intentional spending decisions and consider the necessity and value of a purchase.
+
+### Expense Categorization
+
+HERcapital organizes expenses into categories, allowing users to better understand where their money is going and recognize patterns in their spending behavior.
+
+### Financial Literacy Tools
+
+The app provides interactive educational resources covering important personal finance concepts, including:
+
+* Credit scores and building credit
+* Roth IRAs and investing
+* Budgeting and spending habits
+* Long-term financial planning
+
+### Community Forum
+
+HERcapital includes a community forum where users can create posts, ask questions, share financial opportunities, and exchange advice with others interested in improving their financial knowledge.
+
+### AI Financial Assistant
+
+The app includes an AI-powered assistant designed to answer questions specifically related to personal finance and financial education.
+
+The assistant is intentionally restricted to the application's educational scope rather than functioning as a general-purpose chatbot.
+
+## Tech Stack
+
+**Frontend**
+
+* React Native
+* Expo
+* JavaScript
+
+**Backend & Database**
+
+* Supabase
+* SQL
+
+**AI**
+
+* Claude API
+
+**Development Tools**
+
+* Git & GitHub
+* Xcode
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd HERcapital
+```
+
+Install the required dependencies:
+
+```bash
+npm install
+```
+
+Configure the required environment variables for Supabase and the Claude API.
+
+Start the application:
+
+```bash
+npx expo start
+```
+
+The application can then be opened using Expo Go or an iOS/Android simulator.
+
+## Recognition
+
+HERcapital was developed from initial problem identification to a functional prototype within the 48-hour **FidHacks 2026** hackathon.
+
+**3rd Place — FidHacks 2026**
+
+## Future Improvements
+
+With additional development time, HERcapital could be expanded with:
+
+* More personalized spending insights and recommendations
+* Advanced spending analytics and visualizations
+* Additional financial education modules
+* Improved community moderation
+* Greater user personalization
+* Expanded financial goal tracking
+
+## Team
+
+Built for **FidHacks 2026**.
